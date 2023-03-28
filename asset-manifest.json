@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4dd2c5b3.css",
+    "main.js": "/static/js/main.da3101fa.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/camplify.jpg": "/static/media/camplify.c872930ba98526685e36.jpg",
+    "static/media/shopify.jpg": "/static/media/shopify.ee3ac912b529e0d9d6ea.jpg",
+    "static/media/shiftcare.jpg": "/static/media/shiftcare.e632fab60d83ab849825.jpg",
+    "static/media/conx.jpg": "/static/media/conx.d9930cf65655b614d4b4.jpg",
+    "static/media/banba.jpg": "/static/media/banba.6b6d65475d56b5f060af.jpg",
+    "index.html": "/index.html",
+    "main.4dd2c5b3.css.map": "/static/css/main.4dd2c5b3.css.map",
+    "main.da3101fa.js.map": "/static/js/main.da3101fa.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4dd2c5b3.css",
+    "static/js/main.da3101fa.js"
+  ]
+}
