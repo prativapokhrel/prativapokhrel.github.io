@@ -1,17 +1,25 @@
 import './App.css';
 import React from "react";
 import Navbar from './components/Navbar';
-// import About from "./components/About";
-// import Contact from "./components/Contact";
-// import Navbar from "./components/Navbar";
-// import Projects from "./components/Projects";
-// import Skills from "./components/Skills";
-// import Testimonials from "./components/Testimonials";
-
+import Home from './components/Home';
+import SocialLinks from './components/SocialLinks';
+import About from './components/About';
+import Portfolio from './components/Portfolio';
+import Expertise from './components/Expertise';
+import Contact from './components/Contact';
 
 function App() {
   return (
-    <Navbar/>
+    <div>
+      <Navbar/>
+      <Home/>
+      <About/>
+      <Expertise/>
+      <Portfolio/>
+      <Contact/>
+      <SocialLinks />
+    </div>
+    
   );
 }
 

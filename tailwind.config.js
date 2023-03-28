@@ -4,10 +4,18 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "cover": "#010313"
+      }
+    },
+
+    
+
     fontFamily: {
       signature: ["Great Vibes"],
     }
+    
   },
   plugins: [],
 }

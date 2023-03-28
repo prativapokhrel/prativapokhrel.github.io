@@ -1,5 +1,9 @@
 import React, { useState } from 'react'
 import {FaBars, FaTimes} from "react-icons/fa";
+import {Link} from "react-scroll";
+import { HiOutlineMail} from 'react-icons/hi'; 
+import {HiDocumentDownload} from 'react-icons/hi'; 
+
 
 const Navbar = () => {
 
@@ -16,11 +20,11 @@ const Navbar = () => {
     },
     {
       id: 3,
-      link: 'portfolio'
+      link: 'expertise'
     },
     {
       id: 4, 
-      link: 'experience'
+      link: 'portfolio'
     },
     {
       id: 5,
@@ -31,7 +35,16 @@ const Navbar = () => {
   return (
     <div className='flex justify-between items-center w-full h-20 px-4
     text-white bg-black fixed'>
-      <h1 className="text-5xl font-signature ml-2">Prativa</h1>
+      {/* <h1 className="text-5xl font-signature ml-2">Prativa</h1> */}
+      <div className='flex justify-evenly '>
+        <p className='pl-4 pt-4'>
+          <a href="/resume.pdf" download={true}
+                      target="_blank"
+                      rel="noreferrer"><HiDocumentDownload size={40} />Resume</a>
+        </p>
+      
+      </div>
+      
 
       <ul className='hidden md:flex'>
         {links.map(({id, link}) => (
@@ -39,7 +52,7 @@ const Navbar = () => {
             key={id} className='px-4 cursor-pointer capitalize font-medium 
            text-gray-500 hover:scale-105 duration-200'
           >
-            {link}
+            <Link to={link} smooth duration={500} className="text-white">{link}</Link>
           </li>
         ))}
         
@@ -56,7 +69,8 @@ const Navbar = () => {
           <li 
             key={id} className='px-4 cursor-pointer capitalize py-6'
           >
-            {link}
+            <Link onClick={() => setNav(!nav)} to={link} smooth duration={500} className="text-white">{link}</Link>
+            {/* {link} */}
           </li>
         ))}
 
