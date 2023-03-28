@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import {FaBars, FaTimes} from "react-icons/fa";
 import {Link} from "react-scroll";
-import { HiOutlineMail} from 'react-icons/hi'; 
+// import { HiOutlineMail} from 'react-icons/hi'; 
 import {HiDocumentDownload} from 'react-icons/hi'; 
 
 
