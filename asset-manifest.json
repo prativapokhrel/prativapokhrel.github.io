@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a8e22e5a.css",
+    "main.js": "/static/js/main.545f9004.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/camplify.jpg": "/static/media/camplify.c872930ba98526685e36.jpg",
+    "static/media/hlab.jpg": "/static/media/hlab.f61057d72a5eae807b35.jpg",
+    "static/media/shopify.jpg": "/static/media/shopify.ee3ac912b529e0d9d6ea.jpg",
+    "static/media/shiftcare.jpg": "/static/media/shiftcare.e632fab60d83ab849825.jpg",
+    "static/media/conx.jpg": "/static/media/conx.d9930cf65655b614d4b4.jpg",
+    "static/media/smaregi.jpg": "/static/media/smaregi.da525a8fac83f818bb97.jpg",
+    "static/media/banba.jpg": "/static/media/banba.6b6d65475d56b5f060af.jpg",
+    "index.html": "/index.html",
+    "main.a8e22e5a.css.map": "/static/css/main.a8e22e5a.css.map",
+    "main.545f9004.js.map": "/static/js/main.545f9004.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8e22e5a.css",
+    "static/js/main.545f9004.js"
+  ]
+}
