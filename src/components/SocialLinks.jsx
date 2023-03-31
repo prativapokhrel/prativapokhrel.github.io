@@ -12,7 +12,7 @@ const SocialLinks = () => {
                  <FaLinkedin size={30} />
                 </>
             ),
-            href: "https://linkedin.com",
+            href: "https://www.linkedin.com/in/prativa-pokhrel/",
             style: 'rounded-tr-md'
         },
         {
@@ -22,7 +22,7 @@ const SocialLinks = () => {
                  <FaGithub size={30} />
                 </>
             ),
-            href: "https://github.com",
+            href: "https://github.com/prativapokhrel",
         },
         {
             id: 3,
@@ -31,7 +31,7 @@ const SocialLinks = () => {
                  <HiOutlineMail size={30} />
                 </>
             ),
-            href: "mailto:foo@gmail.com",
+            href: "mailto:prativa.pokhrel95@gmail.com",
         },
         // {
         //     id: 4,

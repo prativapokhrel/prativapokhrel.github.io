@@ -4,6 +4,9 @@ import camplify from '../assets/camplify.jpg';
 import shiftcare from '../assets/shiftcare.jpg';
 import banba from '../assets/banba.jpg';
 import shopify from '../assets/shopify.jpg';
+import smaregi from '../assets/smaregi.jpg';
+import hlab from '../assets/hlab.jpg';
+
 // import {Link} from "react-scroll";
 
 // import tailwind from '../assets/tailwind.png';
@@ -41,6 +44,20 @@ const Portfolio = () => {
             src: shopify,
             link: "https://apps.shopify.com/japan-order-csv",
             description: "Shopify Data Formatter"
+        },
+
+        {
+            id: 6,
+            src: smaregi,
+            link: "https://corp.smaregi.jp/en/service/smaregi.php",
+            description: "Shopify with Smaregi(Japanese POS System)"
+        },
+
+        {
+            id: 7,
+            src: hlab,
+            link: "https://my.h-lab.co/",
+            description: " Application site for HLAB"
         }
     ]
   return (
@@ -59,7 +76,7 @@ const Portfolio = () => {
                         <a href={link} target="_">
                             <img src={src} alt="" className='h-3/4 w-full mx-auto rounded-md duration-200 hover:scale-105' />
                         </a>
-                        <div className='flex items-center justify-center pt-8 font-bold'>
+                        <div className='flex items-center mx-3 justify-center pt-8 font-bold'>
                             <p>{description}</p>
                         </div>
                     </div>
