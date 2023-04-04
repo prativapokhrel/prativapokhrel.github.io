@@ -6,6 +6,7 @@ import banba from '../assets/banba.jpg';
 import shopify from '../assets/shopify.jpg';
 import smaregi from '../assets/smaregi.jpg';
 import hlab from '../assets/hlab.jpg';
+import suicide_analysis from "../assets/suicide_analysis.jpg";
 
 // import {Link} from "react-scroll";
 
@@ -58,6 +59,12 @@ const Portfolio = () => {
             src: hlab,
             link: "https://my.h-lab.co/",
             description: " Application site for HLAB"
+        },
+        {
+            id: 8,
+            src: suicide_analysis,
+            link: "https://github.com/prativapokhrel/suicide_analysis_tableau",
+            description: "World Suicide Rate Analysis using Tableau"
         }
     ]
   return (
