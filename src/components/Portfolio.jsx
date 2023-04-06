@@ -7,6 +7,7 @@ import shopify from '../assets/shopify.jpg';
 import smaregi from '../assets/smaregi.jpg';
 import hlab from '../assets/hlab.jpg';
 import suicide_analysis from "../assets/suicide_analysis.jpg";
+import sales_analysis from "../assets/sales_analysis.jpg";
 
 // import {Link} from "react-scroll";
 
@@ -65,6 +66,12 @@ const Portfolio = () => {
             src: suicide_analysis,
             link: "https://github.com/prativapokhrel/suicide_analysis_tableau",
             description: "World Suicide Rate Analysis using Tableau"
+        },
+        {
+            id: 9,
+            src: sales_analysis,
+            link: "https://github.com/prativapokhrel/Sales-Data-Prediction",
+            description: "Future Sales Data Prediction"
         }
     ]
   return (
